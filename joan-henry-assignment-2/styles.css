@@ -1,0 +1,106 @@
+/* SITE COLORS;-
+CAMBRIDGE BLUE - #BCD8C1
+PALE SPRING BUD - #D6DBB2
+FLAX - #E3D985
+MANDARIN - #E57A44
+DARK PURPLE - #422040
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', 'Baloo Da 2';
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    line-height: 1.6rem;
+}
+
+.align-center,
+div#vid {
+    text-align: center;
+}
+
+header {
+    background-color: #BCD8C1 !important;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+ul>li {
+    list-style: none;
+    display: inline;
+    margin: 50px;
+}
+
+a:link,
+a:visited {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #422040;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: #422040;
+    color: #FFFFFF;
+    cursor: pointer
+}
+
+h1,
+h2 {
+    color: #E57A44;
+    margin: 10px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 15px;
+}
+
+#home {
+    background: linear-gradient(135deg, #d6dbb3 0%, #e4da86 50%, #e57943 99%);
+}
+
+#about {
+    background-color: #D6DBB2;
+}
+
+#background-img {
+    height: 500px;
+}
+
+video[width="300"] {
+    outline: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.parallax {
+    background-image: url("assets/dog1.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: #BCD8C1;
+    height: 50px;
+    padding: 15px;
+    color: #422040;
+}

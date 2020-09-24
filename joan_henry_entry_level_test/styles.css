@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: var(--ff-secondary);
+}
+
+:root {
+    --ff-primary: "Source Sans Pro", monospace;
+    --ff-secondary: "Baloo Da 2";
+    --clr-light: #FFFFFF;
+    --clr-dark: #000000;
+    --clr-accent: #FBEEB5;
+}
+
+
+/* General styles */
+
+body {
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    line-height: 2rem;
+    word-spacing: 3px;
+}
+
+div#container {
+    background-color: #181818;
+    border: var(--clr-accent) solid 3px;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#img1 {
+    width: 100%;
+    height: 300px;
+    /* filter: grayscale(85%); */
+    border: #FBEEB5 solid 2px;
+    border-radius: 0 0 50px 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+header {
+    position: relative;
+    font-size: 22px;
+}
+
+h1,
+h3 {
+    color: var(--clr-accent);
+}
+
+p {
+    font-family: var(--ff-primary);
+}
+
+header>p {
+    /* position: absolute;
+    top: 200px;
+    left: 200px; */
+}
+
+header>h1 {
+    /* position: absolute;
+    top: 150px;
+    left: 65px; */
+}
+
+div#vid {
+    text-align: center;
+}
+
+video {
+    outline: 0;
+    border: var(--clr-accent) solid 3px;
+    position: relative;
+}
+
+#img2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: var(--clr-light) solid 5px;
+    border-radius: 50%;
+    float: left;
+    bottom: 10px;
+    right: 10px;
+}
