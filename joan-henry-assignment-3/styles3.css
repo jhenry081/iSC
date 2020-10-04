@@ -1,0 +1,85 @@
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  line-height: 1.6rem;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+/* NAVIGATION BAR */
+header > * {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+nav {
+    background-color: transparent;
+}
+
+ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+img#logo {
+    width: 100px;
+    height: 50px;
+}
+
+img#icon{
+    width: 100px;
+    height: 50px;
+}
+
+a:link,
+a:visited {
+  color: #ffffff;
+  padding: 0 15px 0 15px;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  border-bottom: 3px solid #FFFFFF;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* * {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+* * {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+* * * {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+* * * * {
+  background-color: rgba(255, 0, 255, 0.2);
+}
+* * * * * {
+  background-color: rgba(0, 255, 255, 0.2);
+}
+* * * * * * {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+* * * * * * * {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+* * * * * * * * {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+* * * * * * * * * {
+  background-color: rgba(0, 0, 255, 0.2);
+} */
