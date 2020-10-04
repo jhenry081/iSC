@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   outline: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 html {
@@ -17,69 +18,56 @@ main {
 }
 
 /* NAVIGATION BAR */
-header > * {
+nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  background-color: transparent;
 }
 
-nav {
-    background-color: transparent;
-}
-
-ul li{
+ul li {
   list-style-type: none;
   display: inline-block;
 }
 
 img#logo {
-    width: 100px;
-    height: 50px;
+  width: 100px;
+  height: 50px;
 }
 
-img#icon{
-    width: 100px;
-    height: 50px;
+img#icon {
+  width: 100px;
+  height: 50px;
 }
 
 a:link,
 a:visited {
   color: #ffffff;
+  font-weight: 900;
   padding: 0 15px 0 15px;
   text-decoration: none;
 }
 
 a:hover,
 a:active {
-  border-bottom: 3px solid #FFFFFF;
-  color: #FFFFFF;
+  border-bottom: 5px solid #ffffff;
+  color: #ffffff;
   cursor: pointer;
 }
 
-/* * {
-  background-color: rgba(255, 0, 0, 0.2);
+div#banner {
+  color: #ffffff;
+  font-size: 80px;
+  margin: 100px;
+  padding: 30px;
+  max-width: 400px;
+  line-height: 70px;
 }
-* * {
-  background-color: rgba(0, 255, 0, 0.2);
+
+div#banner-img {
+  background-image: url(assets3/img-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
-* * * {
-  background-color: rgba(0, 0, 255, 0.2);
-}
-* * * * {
-  background-color: rgba(255, 0, 255, 0.2);
-}
-* * * * * {
-  background-color: rgba(0, 255, 255, 0.2);
-}
-* * * * * * {
-  background-color: rgba(255, 255, 0, 0.2);
-}
-* * * * * * * {
-  background-color: rgba(255, 0, 0, 0.2);
-}
-* * * * * * * * {
-  background-color: rgba(0, 255, 0, 0.2);
-}
-* * * * * * * * * {
-  background-color: rgba(0, 0, 255, 0.2);
-} */
