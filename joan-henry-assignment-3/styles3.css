@@ -73,7 +73,7 @@ div#banner-img {
   height: 500px;
 }
 
-section#main{
+section#main {
   display: flex;
   flex-flow: row nowrap;
 }
@@ -134,7 +134,7 @@ div#stores p {
 }
 
 div#footer {
-  padding: 15px;
+  padding: 10px;
 }
 
 div#footer > * {
@@ -155,5 +155,52 @@ section#preview img {
   display: inline-block;
   width: 300px;
   height: auto;
-  margin: -50px;
+  margin-top: -50px;
+}
+
+section#preview-info {
+  background-color: #333333;
+  color: #ffffff;
+  width: 30%;
+  height: auto;
+  margin-top: -50px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+section#preview-button > div {
+  display: inline-block;
+  padding: 10px;
+}
+
+section#preview-info > * {
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+section#preview-info h4{
+  font-weight: 300;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  margin-top: 0;
+}
+
+section#preview-info p{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+section#preview-info button{
+  align-self: start;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  text-decoration: none; 
+  font-weight: 300;
+  word-spacing: 10px;
+  letter-spacing: 5px; 
 }
