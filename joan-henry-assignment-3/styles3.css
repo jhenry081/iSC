@@ -59,7 +59,7 @@ a:active {
 div#banner {
   color: #ffffff;
   font-size: 80px;
-  margin: 100px;
+  margin: 80px;
   padding: 30px;
   max-width: 400px;
   line-height: 70px;
@@ -73,9 +73,14 @@ div#banner-img {
   height: 500px;
 }
 
+section#main{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 /* LEFT PART OF BODY*/
 
-section#body{
+section#body {
   width: 50%;
 }
 
@@ -83,7 +88,7 @@ div#search {
   margin: 15px;
 }
 
-input[type="search"]{
+input[type="search"] {
   border: 0;
   padding: 10px;
   margin-bottom: 40px;
@@ -93,7 +98,7 @@ input[type="search"]{
   border-bottom:2px solid #333333;
 } */
 
-div#stores{
+div#stores {
   margin-bottom: 100px;
 }
 
@@ -128,18 +133,27 @@ div#stores p {
   color: rgba(51, 51, 51, 0.3);
 }
 
-div#footer{
+div#footer {
   padding: 15px;
 }
 
-div#footer > *{
+div#footer > * {
   display: inline;
 }
 
-div#footer p{
+div#footer p {
   font-size: 18px;
 }
 
 div#footer > i {
   color: #333333 !important;
+}
+
+/* RIGHT PART OF BODY */
+
+section#preview img {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin: -50px;
 }
