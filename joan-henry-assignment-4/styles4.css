@@ -1,0 +1,24 @@
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  line-height: 1.6rem;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+/* NAVIGATION BAR */
