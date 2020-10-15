@@ -153,3 +153,34 @@ div#slider4 {
   background-image: url("https://assets.website-files.com/5cfe639004ff071bedd1150e/5cfeaaddb4e53b90d444842e_hero-video-poster-00001.jpg");
   background-position: center;
 }
+
+/* MAPS & LOCATION 4 DEVS SECTION */
+div#maps-and-location{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div#maps-and-location > * {
+  margin: 15px;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+p{
+  color: #9BA2B2;
+}
+
+div#maps-and-location a:link, div#maps-and-location a:visited{
+  background-color: #3898EC;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 16px;
+  padding: ;
+}
+
+div#maps-and-location a:active, div#maps-and-location a:hover{
+
+}
