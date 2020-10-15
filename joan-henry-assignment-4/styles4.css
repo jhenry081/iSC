@@ -1,9 +1,25 @@
+/* SITE COLORS
+
+~ Rich Black FOGRA 39: #121212
+~ White: #FFFFFF
+~ Tufts Blue(banner button blue): #3898EC
+~ Independence(companies worked with): #444B5E
+~ Manatee(paragraph colors): #9BA2B2
+~ Persian Blue(straightway banner): #2E2BB8
+~ Eerie Black(map platform bgcolor): #202020
+~ Azure(map platform bgcolor on hover): #007AFC
+~ Eerie Black(showcase bg): #1B1B1B
+~ Cadet Grey(footer "copyright mapbox" color): #9CACB4
+~ Snapchat Yellow: #FFFB12
+
+*/
+
 /* GLOBAL STYLES */
 * {
   margin: 0;
   padding: 0;
   outline: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Cerapro", sans-serif;
 }
 
 html {
@@ -15,10 +31,39 @@ html {
 main {
   width: 100%;
   height: auto;
+  background-color: #121212;
 }
 
 .flex{
   display: flex;
 }
 
-/* NAVIGATION BAR */
+/* FONTS */
+@font-face {
+  font-family: 'Cerapro';
+  src: url('https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485e977e62eb1e5f87d0e_CeraPRO-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cerapro';
+  src: url('https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485eb2f38e10eb095d13a_CeraPRO-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cerapro';
+  src: url('https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485e9fa7e9cbc056dec7a_CeraPRO-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cerapro';
+  src: url('https://assets.website-files.com/5f747fc7980b0f825eca0539/5f74861c49448d51bf191e55_CeraPRO-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

@@ -17,6 +17,10 @@ main {
   height: auto;
 }
 
+.flex{
+  display: flex;
+}
+
 /* NAVIGATION BAR */
 nav {
   display: flex;
@@ -94,10 +98,6 @@ input[type="search"] {
   margin-bottom: 40px;
 }
 
-/* input[type="search"]:focus{
-  border-bottom:2px solid #333333;
-} */
-
 div#stores {
   margin-bottom: 100px;
 }
@@ -154,19 +154,23 @@ div#footer > i {
 section#preview img {
   display: inline-block;
   width: 300px;
-  height: auto;
-  margin-top: -50px;
+  height: 100%;
+  object-fit: cover;
 }
 
 section#preview-info {
-  background-color: #333333;
+  /* background-color: #333333; */
   color: #ffffff;
   width: 30%;
   height: auto;
-  margin-top: -50px;
-  padding: 10px;
+  /* margin-top: -50px; */
+  /* padding: 10px; */
   display: flex;
   flex-flow: column nowrap;
+}
+
+section#preview-button {
+  background: #333;
 }
 
 section#preview-button > div {
@@ -175,7 +179,7 @@ section#preview-button > div {
 }
 
 section#preview-info > * {
-  margin: 30px;
+  /* margin: 30px; */
   align-items: center;
   justify-content: center;
 }

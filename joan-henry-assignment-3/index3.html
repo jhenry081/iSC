@@ -29,20 +29,19 @@
                     </ul>
                 </nav>
                 <div id="banner">
-                    <p>Sportswear since 1978</p>
+                    <p>Sportswear since 1738</p>
                 </div>
             </div>
         </header>
         <section id="main">
-            <section id="body">
+            <section id="body" style="flex-shrink: 0">
                 <div id="search">
                     <i class="fas fa-search"></i>
                     <input type="search" name="" id="" placeholder="Search for something...">
                 </div>
                 <div id="stores">
                     <div id="store">
-                        <h2><a href="" style="border-top: 2px solid #333333;
-                        color: #333333;">Brixton</a></h2>
+                        <h2><a href="">Brixton</a></h2>
                         <p>Supply something</p>
                     </div>
                     <div id="store">
@@ -64,23 +63,27 @@
                     </ul>
                 </div>
             </section>
-            <section id="preview">
-                <img src="assets3/img-1.jpg" alt="">
-            </section>
-            <section id="preview-info">
-                <section id="preview-button">
-                    <i class="fas fa-angle-left"></i>
-                    <div id="button1">
-                        <p>Prev</p>
-                    </div>
-                    <div id="button2">
-                        <p>Next</p>
-                    </div><i class="fas fa-angle-right"></i>
+            <div class="flex" style="margin-top: -90px;">
+                <section id="preview">
+                    <img src="assets3/img-1.jpg" alt="">
                 </section>
-                <h4>LATEST NEWS</h4>
-                <p>Sneakers high in the course - The sneaker as an investment onject</p>
-                <button>READ MORE <i class="fas fa-angle-right""></i></button>
-        </section>
+                <section id="preview-info" class="flex" style="flex: 1; align-items: flex-start; flex-direction: column;">
+                    <section id="preview-button" style="padding: 6px 24px">
+                        <i class="fas fa-angle-left"></i>
+                        <div id="button1">
+                            <p>Prev</p>
+                        </div>
+                        <div id="button2">
+                            <p>Next</p>
+                        </div><i class="fas fa-angle-right"></i>
+                    </section>
+                    <div style="background-color: #333; flex: 1;">
+                        <h4>LATEST NEWS</h4>
+                        <p>Sneakers high in the course - The sneaker as an investment onject</p>
+                        <button>READ MORE <i class="fas fa-angle-right""></i></button>
+                    </div>
+                </section>
+            </div>
     </section>
     </main>
 </body>
