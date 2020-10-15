@@ -34,36 +34,74 @@ main {
   background-color: #121212;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
 /* FONTS */
 @font-face {
-  font-family: 'Cerapro';
-  src: url('https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485e977e62eb1e5f87d0e_CeraPRO-Regular.ttf') format('truetype');
+  font-family: "Cerapro";
+  src: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485e977e62eb1e5f87d0e_CeraPRO-Regular.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Cerapro';
-  src: url('https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485eb2f38e10eb095d13a_CeraPRO-Medium.ttf') format('truetype');
+  font-family: "Cerapro";
+  src: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485eb2f38e10eb095d13a_CeraPRO-Medium.ttf")
+    format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Cerapro';
-  src: url('https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485e9fa7e9cbc056dec7a_CeraPRO-Bold.ttf') format('truetype');
+  font-family: "Cerapro";
+  src: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7485e9fa7e9cbc056dec7a_CeraPRO-Bold.ttf")
+    format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Cerapro';
-  src: url('https://assets.website-files.com/5f747fc7980b0f825eca0539/5f74861c49448d51bf191e55_CeraPRO-RegularItalic.ttf') format('truetype');
+  font-family: "Cerapro";
+  src: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f74861c49448d51bf191e55_CeraPRO-RegularItalic.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+img#mapbox-logo {
+  align-self: flex-start;
+  width: 10rem;
+}
+
+div#nav > *{
+  margin-right: 40px;
+}
+
+nav a:link,
+nav a:visited {
+  background-color: #121212;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a#sign-in:link,
+a#sign-in:visited {
+  background-color: #4a4c4d;
+  padding: 2px 12px;
+  width: auto;
+  border-radius: 20px;
 }
