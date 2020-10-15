@@ -109,7 +109,8 @@ a#sign-in:visited {
   width: auto;
   border-radius: 20px;
 }
-nav a#sign-in:active, nav a#sign-in:hover{
+nav a#sign-in:active,
+nav a#sign-in:hover {
   background-color: #87888a;
 }
 
@@ -125,7 +126,7 @@ div#sliders {
 div#sliders > * {
   display: inline-block;
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 10px;
 }
 
@@ -155,32 +156,52 @@ div#slider4 {
 }
 
 /* MAPS & LOCATION 4 DEVS SECTION */
-div#maps-and-location{
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+div#maps-and-location-companies {
+border: 2px solid #004185;
+}
+
+div#maps-and-location {
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 div#maps-and-location > * {
   margin: 15px;
+  text-align: center;
 }
 
-h1 {
-  color: #FFFFFF;
+div#maps-and-location h1 {
+  color: #ffffff;
+  font-size: 72px;
+  line-height: 4rem;
 }
 
-p{
-  color: #9BA2B2;
+div#maps-and-location p {
+  color: #9ba2b2;
+  font-size: 24px;
 }
 
-div#maps-and-location a:link, div#maps-and-location a:visited{
-  background-color: #3898EC;
+div#maps-and-location a:link,
+div#maps-and-location a:visited {
+  background-color: #3898ec;
   color: #ffffff;
   text-decoration: none;
-  border-radius: 16px;
-  padding: ;
+  border-radius: 20px;
+  padding: 8px 30px;
 }
 
-div#maps-and-location a:active, div#maps-and-location a:hover{
+div#maps-and-location a:active,
+div#maps-and-location a:hover {
+  background-color: #004185;
+}
 
+div#companies {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div#company img {
+  width: 150px;
 }
