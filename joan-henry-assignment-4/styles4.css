@@ -72,6 +72,10 @@ main {
   font-display: swap;
 }
 
+/* BANNER */
+
+/* NAVIGATION */
+
 nav {
   width: 80%;
   margin: 0 auto;
@@ -86,7 +90,7 @@ img#mapbox-logo {
   width: 10rem;
 }
 
-div#nav > *{
+div#nav > * {
   margin-right: 40px;
 }
 
@@ -104,4 +108,48 @@ a#sign-in:visited {
   padding: 2px 12px;
   width: auto;
   border-radius: 20px;
+}
+nav a#sign-in:active, nav a#sign-in:hover{
+  background-color: #87888a;
+}
+
+/* SLIDER */
+
+div#sliders {
+  justify-content: space-between;
+  background-color: #121212;
+  padding: 30px;
+  /* border: 3px solid #007AFC; */
+}
+
+div#sliders > * {
+  display: inline-block;
+  border-radius: 4px;
+  color: #FFFFFF;
+  margin: 10px;
+}
+
+.slider > * {
+  margin: 50px;
+}
+
+div#slider1 {
+  border: 2px solid #4a4c4d;
+  background-image: url(assets4/img/data.jpg);
+}
+
+div#slider2 {
+  border: 2px solid #4a4c4d;
+  background-image: url(assets4/img/data.jpg);
+}
+
+div#slider3 {
+  border: 2px solid #4a4c4d;
+  background-image: url(assets4/img/data.jpg);
+}
+
+div#slider4 {
+  border: 2px solid #4a4c4d;
+  background-image: url("https://assets.website-files.com/5cfe639004ff071bedd1150e/5cfeaaddb4e53b90d444842e_hero-video-poster-00001.jpg");
+  background-position: center;
 }
