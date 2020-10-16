@@ -120,7 +120,8 @@ div#sliders {
   justify-content: space-between;
   background-color: #121212;
   padding: 30px;
-  /* border: 3px solid #007AFC; */
+  height: 65vh;
+  max-width: 100vw;
 }
 
 div#sliders > * {
@@ -247,13 +248,15 @@ div#map-pic img {
 
 div#mapbox-studio-container,
 div#navigation-container,
-div#search-container {
+div#search-container,
+div#vision-container {
   margin: 180px 20px;
 }
 
 div#mapbox-studio-container > *,
 div#navigation-container > *,
-div#vision-container > * {
+div#vision-container > *,
+div#data-container > * {
   margin: 40px;
   line-height: 2rem;
 }
@@ -266,14 +269,15 @@ div#mapbox-studio-pic img {
 div#mapbox-studio-info > *,
 div#navigation-info > *,
 div#search-info > *,
-div#vision-info > * {
+div#vision-info > *,
+div#data-info > * {
   margin: 40px;
 }
 
 div#mapbox-studio-info h2,
 div#navigation-info h2,
 div#search-info h2,
-div#vision-info h2 {
+div#vision-info h2, div#data-info h2 {
   color: #ffffff;
   font-size: 56px;
   line-height: 4rem;
@@ -281,7 +285,7 @@ div#vision-info h2 {
 div#mapbox-studio-info p,
 div#navigation-info p,
 div#search-info p,
-div#vision-info p {
+div#vision-info p, div#data-info p {
   color: #9ba2b2;
   font-size: 24px;
 }
@@ -292,7 +296,8 @@ div#navigation-info a:visited,
 div#search-info a:link,
 div#search-info a:visited,
 div#vision-info a:link,
-div#vision-info a:visited {
+div#vision-info a:visited,div#data-info a:link,
+div#data-info a:visited {
   background-color: #121212;
   color: #ffffff;
   text-decoration: none;
@@ -308,7 +313,9 @@ div#navigation-info a:hover,
 div#search-info a:active,
 div#search-info a:hover,
 div#vision-info a:active,
-div#vision-info a:hover {
+div#vision-info a:hover ,
+div#data-info a:active,
+div#data-info a:hover{
   background-color: #1b1c1e;
 }
 
@@ -355,4 +362,11 @@ div#vision-container {
 div#vision-pic img {
   width: 800px;
   height: auto;
+}
+
+/* DATA */
+
+div#data-pic img {
+  width: 700px;
+  height: 400px;
 }
