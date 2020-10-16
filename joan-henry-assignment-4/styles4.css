@@ -262,25 +262,30 @@ div#mapbox-studio-pic img {
 }
 
 div#mapbox-studio-info > *,
-div#navigation-info > * {
+div#navigation-info > *,
+div#search-info > * {
   margin: 40px;
 }
 
 div#mapbox-studio-info h2,
-div#navigation-info h2 {
+div#navigation-info h2,
+div#search-info h2 {
   color: #ffffff;
   font-size: 56px;
   line-height: 4rem;
 }
 div#mapbox-studio-info p,
-div#navigation-info p {
+div#navigation-info p,
+div#search-info p {
   color: #9ba2b2;
   font-size: 24px;
 }
 div#mapbox-studio-info a:link,
 div#mapbox-studio-info a:visited,
 div#navigation-info a:link,
-div#navigation-info a:visited {
+div#navigation-info a:visited,
+div#search-info a:link,
+div#search-info a:visited {
   background-color: #121212;
   color: #ffffff;
   text-decoration: none;
@@ -292,7 +297,9 @@ div#navigation-info a:visited {
 div#mapbox-studio-info a:active,
 div#mapbox-studio-info a:hover,
 div#navigation-info a:active,
-div#navigation-info a:hover {
+div#navigation-info a:hover,
+div#search-info a:active,
+div#search-info a:hover {
   background-color: #1b1c1e;
 }
 
@@ -317,4 +324,14 @@ div#navigation-pics img#nav-img-two {
   top: -125px;
   right: 15px;
   bottom: auto;
+}
+
+/* SEARCH */
+div#search-container {
+  justify-content: space-around;
+}
+
+div#search-pics img {
+  width: 300px;
+  height: auto;
 }
