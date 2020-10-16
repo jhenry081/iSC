@@ -156,25 +156,29 @@ div#slider4 {
 }
 
 /* MAPS & LOCATION 4 DEVS SECTION */
-div#maps-and-location, div#maps-info {
+div#maps-and-location,
+div#maps-info {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
 
-div#maps-and-location> *, div#maps-info > * {
+div#maps-and-location > *,
+div#maps-info > * {
   margin: 15px;
   text-align: center;
 }
 
-div#maps-and-location h1 , div#maps-info h2 {
+div#maps-and-location h1,
+div#maps-info h2 {
   color: #ffffff;
   font-size: 72px;
   line-height: 4rem;
 }
 
-div#maps-and-location p, div#maps-info p {
+div#maps-and-location p,
+div#maps-info p {
   color: #9ba2b2;
   font-size: 24px;
 }
@@ -205,7 +209,7 @@ div#company img {
 
 /* MAPS */
 
-div#maps-info{
+div#maps-info {
   margin-top: 150px;
 }
 
@@ -216,7 +220,7 @@ div#maps-info a:visited {
   text-decoration: none;
   border-radius: 20px;
   padding: 8px 30px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
 }
 
 div#maps-info a:active,
@@ -224,7 +228,7 @@ div#maps-info a:hover {
   background-color: #1b1c1e;
 }
 
-div#maps-pics > *{
+div#maps-pics > * {
   margin: 15px;
 }
 
@@ -237,4 +241,48 @@ div#maps-pics {
 div#map-pic img {
   width: 550px;
   height: 550px;
+}
+
+/* MAPBOX STUDIO*/
+
+div#mapbox-studio-container{
+  margin: 180px 20px;
+}
+
+div#mapbox-studio-container > * {
+  margin: 40px;
+  line-height: 2rem;
+}
+
+div#mapbox-studio-pic img {
+  width: 700px;
+  height: 400px;
+}
+
+div#mapbox-studio-info > * {
+  margin: 40px;
+}
+
+div#mapbox-studio-info h2 {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 4rem;
+}
+div#mapbox-studio-info p {
+  color: #9ba2b2;
+  font-size: 24px;
+}
+div#mapbox-studio-info a:link,
+div#mapbox-studio-info a:visited {
+  background-color: #121212;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px 30px;
+  border: 1px solid #ffffff;
+}
+
+div#mapbox-studio-info a:active,
+div#mapbox-studio-info a:hover {
+  background-color: #1b1c1e;
 }
