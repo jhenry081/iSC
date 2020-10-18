@@ -305,7 +305,7 @@ div#search-info a:visited,
 div#vision-info a:link,
 div#vision-info a:visited,
 div#data-info a:link,
-div#data-info a:visited{
+div#data-info a:visited {
   background-color: #121212;
   color: #ffffff;
   text-decoration: none;
@@ -552,4 +552,64 @@ div#showcase-container a:visited {
 div#showcase-link-button {
   justify-content: center;
   align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 30px;
+}
+
+div#footer-top img {
+  width: 200px;
+  object-fit: contain;
+  justify-self: flex-start;
+  align-self: start;
+}
+
+div#footer-nav {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+div#column > * {
+  margin: 20px;
+}
+
+div#column h2 {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+div#column ul li {
+  list-style: none;
+  font-size: 14px;
+}
+
+div#column a:link,
+div#column a:visited,
+div#footer-bottom-left a:link,
+div#footer-bottom-left a:visited,
+div#footer-bottom-right a:link,
+div#footer-bottom-right a:visited {
+  color: #9ba2b2;
+  text-decoration: none;
+}
+
+div#column a:hover,
+div#column a:active,
+div#footer-bottom-left a:hover,
+div#footer-bottom-left a:active,
+div#footer-bottom-right a:hover,
+div#footer-bottom-right a:active {
+  color: #007afc;
+}
+
+div#footer-bottom {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+div#footer-bottom-left div {
+  color: #9cacb4;
 }
