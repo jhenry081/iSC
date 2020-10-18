@@ -277,7 +277,9 @@ div#data-info > * {
 div#mapbox-studio-info h2,
 div#navigation-info h2,
 div#search-info h2,
-div#vision-info h2, div#data-info h2 {
+div#vision-info h2,
+div#data-info h2,
+div#straightaway-info h2 {
   color: #ffffff;
   font-size: 56px;
   line-height: 4rem;
@@ -285,7 +287,8 @@ div#vision-info h2, div#data-info h2 {
 div#mapbox-studio-info p,
 div#navigation-info p,
 div#search-info p,
-div#vision-info p, div#data-info p {
+div#vision-info p,
+div#data-info p {
   color: #9ba2b2;
   font-size: 24px;
 }
@@ -296,7 +299,8 @@ div#navigation-info a:visited,
 div#search-info a:link,
 div#search-info a:visited,
 div#vision-info a:link,
-div#vision-info a:visited,div#data-info a:link,
+div#vision-info a:visited,
+div#data-info a:link,
 div#data-info a:visited {
   background-color: #121212;
   color: #ffffff;
@@ -313,9 +317,9 @@ div#navigation-info a:hover,
 div#search-info a:active,
 div#search-info a:hover,
 div#vision-info a:active,
-div#vision-info a:hover ,
+div#vision-info a:hover,
 div#data-info a:active,
-div#data-info a:hover{
+div#data-info a:hover {
   background-color: #1b1c1e;
 }
 
@@ -369,4 +373,57 @@ div#vision-pic img {
 div#data-pic img {
   width: 700px;
   height: 400px;
+}
+
+/* STRAIGHTAWAY */
+
+div#straightaway-container {
+  background-color: #2e2bb8;
+  color: #ffffff;
+  justify-content: space-between;
+  justify-self: center;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 16px;
+}
+
+div#straightaway-info {
+  padding: 20px;
+}
+
+div#straightaway-info > *{
+  margin: 20px;
+}
+
+div#straightaway-info h6{
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  color: #000000;
+  width: fit-content;
+  padding: 0;
+}
+
+div#straightaway img{
+  width: 70px;
+  height: 70px;
+}
+
+div#straightaway-pic img {
+  width: 600px;
+  height: 300px;
+}
+
+div#straightaway-info a:link,
+div#straightaway-info a:visited {
+  background-color: #2e2bb8;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px 30px;
+  border: 1px solid #ffffff;
+}
+
+div#straightaway-info a:active,
+div#straightaway-info a:hover{
+  background-color: #2d2bb846;
 }
