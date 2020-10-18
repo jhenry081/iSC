@@ -282,7 +282,8 @@ div#search-info h2,
 div#vision-info h2,
 div#data-info h2,
 div#straightaway-info h2,
-div#mapbox-platform-info h2 {
+div#mapbox-platform-info h2,
+div#showcase-info h2 {
   color: #ffffff;
   font-size: 56px;
   line-height: 4rem;
@@ -304,7 +305,7 @@ div#search-info a:visited,
 div#vision-info a:link,
 div#vision-info a:visited,
 div#data-info a:link,
-div#data-info a:visited {
+div#data-info a:visited{
   background-color: #121212;
   color: #ffffff;
   text-decoration: none;
@@ -433,7 +434,8 @@ div#straightaway-info a:hover {
 
 /* MAPBOX PLATFORMS */
 
-div#mapbox-platform-info h2 {
+div#mapbox-platform-info h2,
+div#showcase-info h2 {
   text-align: center;
 }
 
@@ -473,4 +475,81 @@ div#platform img {
   object-fit: cover;
   object-position: left;
   margin: 5px;
+}
+
+/* SHOWCASE */
+
+div#showcase-container {
+  background-color: #1b1b1b;
+  padding: 30px;
+}
+
+/* div#showcase-container > * {
+  margin: 40px;
+} */
+
+div#showcase-info h2 {
+  padding: 20px;
+}
+
+div#showcases {
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+div#showcases div {
+  width: 500px;
+  height: 300px;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+}
+
+div#showcases img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+div#showcase1 {
+  /* background-image: url(assets4/img/snap-inc-pic.png);
+  background-size: cover;
+  background-position: center; */
+  background-color: #fffb12;
+}
+
+div#showcase2 {
+  background-image: url(assets4/img/strava-pic.png);
+  background-size: cover;
+  background-position: center;
+}
+
+div#showcase3 {
+  background-image: url(assets4/img/weather-logo-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+div#showcase4 {
+  /* background-image: url(assets4/img/shopify-pic.png);
+  background-size: cover;
+  background-position: center; */
+  background-color: #e2e2e2;
+}
+
+div#showcase-container a:link,
+div#showcase-container a:visited {
+  background-color: #1b1b1b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px 30px;
+  border: 1px solid #ffffff;
+}
+
+div#showcase-link-button {
+  justify-content: center;
+  align-items: center;
 }
