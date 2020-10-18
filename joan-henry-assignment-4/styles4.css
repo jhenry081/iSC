@@ -249,7 +249,9 @@ div#map-pic img {
 div#mapbox-studio-container,
 div#navigation-container,
 div#search-container,
-div#vision-container {
+div#vision-container,
+div#data-container,
+div#mapbox-platform-container {
   margin: 180px 20px;
 }
 
@@ -279,7 +281,8 @@ div#navigation-info h2,
 div#search-info h2,
 div#vision-info h2,
 div#data-info h2,
-div#straightaway-info h2 {
+div#straightaway-info h2,
+div#mapbox-platform-info h2 {
   color: #ffffff;
   font-size: 56px;
   line-height: 4rem;
@@ -391,19 +394,19 @@ div#straightaway-info {
   padding: 20px;
 }
 
-div#straightaway-info > *{
+div#straightaway-info > * {
   margin: 20px;
 }
 
-div#straightaway-info h6{
+div#straightaway-info h6 {
   border-radius: 4px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #000000;
   width: fit-content;
   padding: 0;
 }
 
-div#straightaway img{
+div#straightaway img {
   width: 70px;
   height: 70px;
 }
@@ -424,6 +427,50 @@ div#straightaway-info a:visited {
 }
 
 div#straightaway-info a:active,
-div#straightaway-info a:hover{
+div#straightaway-info a:hover {
   background-color: #2d2bb846;
+}
+
+/* MAPBOX PLATFORMS */
+
+div#mapbox-platform-info h2 {
+  text-align: center;
+}
+
+div#platforms {
+  flex-flow: row nowrap;
+  width: auto;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+div#platform.parent:hover {
+  background-color: #007afc;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+  transform: scale(0.95);
+}
+
+.child {
+  transition: all 0.5s ease-in;
+}
+
+div#platform {
+  background-color: #202020;
+  border-radius: 8px;
+}
+
+div#platform h2 {
+  color: #ffffff;
+  padding: 20px;
+}
+
+div#platform img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  object-position: left;
+  margin: 5px;
 }
