@@ -370,6 +370,7 @@ div#vision-container {
 div#vision-pic img {
   width: 800px;
   height: auto;
+  margin-left: -86px;
 }
 
 /* DATA */
