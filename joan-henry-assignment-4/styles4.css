@@ -389,6 +389,7 @@ div#straightaway-container {
   justify-self: center;
   margin: 0 auto;
   width: 90%;
+  height: 100%;
   border-radius: 16px;
 }
 
@@ -414,8 +415,11 @@ div#straightaway img {
 }
 
 div#straightaway-pic img {
-  width: 600px;
-  height: 300px;
+  width: 750px;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
 }
 
 div#straightaway-info a:link,
