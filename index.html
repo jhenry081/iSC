@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="flex flex-col center-center">
+    <div id="themeButtons">
+        <span>Theme: &emsp;</span>
+        <div class="flex">
+            <button id="fb" onclick="changeThemeTo('fb')" class="active">Fb Messenger</button>
+            &emsp;
+            <button id="whatsapp" onclick="changeThemeTo('whatsapp')">Whatsapp</button>
+        </div>
+    </div>
+    <div id="lisimu" class="flex flex-col">
+        <div class="message">
+            Ahem...ignoring what you said there👋
+        </div>
+
+        <div class="message sent">
+            Just get lost weirdo😏
+        </div>
+
+        <!-- <input type="text" placeholder="Type message here" /> -->
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
