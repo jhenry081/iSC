@@ -3,18 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conversation Generator</title>
 
     <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="flex flex-col center-center">
-    <div id="themeButtons">
-        <span>Theme: &emsp;</span>
-        <div class="flex">
-            <button id="fb" onclick="changeThemeTo('fb')" class="active">Fb Messenger</button>
-            &emsp;
-            <button id="whatsapp" onclick="changeThemeTo('whatsapp')">Whatsapp</button>
+<body class="flex flex-co center-center">
+    <div id="textContent">
+        <h1>Conversation Generator</h1>
+        <p>
+            Quick tool to help you generate fake conversations for memes and stuff ( <a href="https://www.youtube.com/watch?v=N-BMzEnqhCQ" target="_blank">Don't say and stuff</a>  ). 
+            Customize the look and feel of the conversation and click take screenshot and go meme away.
+            Enjoy!!!
+        </p>
+
+        <div id="customize">
+            <h2>Customize conversation</h2>
+            <div id="themeButtons" class="flex">
+                <button id="fb" class="active flex items-center" onclick="changeThemeTo('fb')" class="active">
+                    <svg fill="currentColor" width="16" viewBox="0 0 245 244">
+                        <path d="M245,122.745584 C245,54.9550197 190.154932,1.13686838e-13 122.5,1.13686838e-13 C54.8450684,1.13686838e-13 0,54.9550197 0,122.745584 C0,184.011452 44.7964795,234.791684 103.359375,244 L103.359375,158.226729 L72.2558594,158.226729 L72.2558594,122.745584 L103.359375,122.745584 L103.359375,95.7031972 C103.359375,64.9400853 121.647764,47.9474936 149.629443,47.9474936 C163.031948,47.9474936 177.050781,50.3448682 177.050781,50.3448682 L177.050781,80.5517892 L161.603818,80.5517892 C146.386304,80.5517892 141.640625,90.0135078 141.640625,99.7204779 L141.640625,122.745584 L175.615234,122.745584 L170.184082,158.226729 L141.640625,158.226729 L141.640625,244 C200.203521,234.791684 245,184.011452 245,122.745584" />
+                    </svg>
+                    &nbsp;
+
+                    Messenger
+                </button>
+                &emsp;
+                <button id="whatsapp" class="flex items-center" onclick="changeThemeTo('whatsapp')">
+                    <svg fill="currentColor" width="16" viewBox="0 0 419 421">
+                        <path d="M305.389,252.2112 C300.178,249.6042 274.559,236.9982 269.782,235.2582 C265.005,233.5192 261.531,232.6502 258.057,237.8652 C254.583,243.0822 244.597,254.8202 241.556,258.2992 C238.517,261.7752 235.477,262.2122 230.267,259.6032 C225.055,256.9942 208.264,251.4922 188.36,233.7372 C172.868,219.9202 162.41,202.8562 159.37,197.6382 C156.331,192.4222 159.047,189.6022 161.656,187.0032 C164,184.6682 166.867,180.9162 169.472,177.8742 C172.078,174.8312 172.946,172.6562 174.683,169.1812 C176.42,165.7022 175.552,162.6592 174.249,160.0512 C172.946,157.4432 162.524,131.7922 158.182,121.3572 C153.952,111.1982 149.656,112.5742 146.457,112.4122 C143.421,112.2612 139.943,112.2292 136.47,112.2292 C132.996,112.2292 127.35,113.5332 122.574,118.7492 C117.797,123.9672 104.335,136.5742 104.335,162.2232 C104.335,187.8732 123.008,212.6512 125.614,216.1292 C128.219,219.6082 162.359,272.2422 214.634,294.8152 C227.067,300.1842 236.774,303.3912 244.341,305.7912 C256.825,309.7592 268.185,309.1992 277.163,307.8572 C287.175,306.3612 307.994,295.2512 312.337,283.0792 C316.679,270.9052 316.679,260.4722 315.376,258.2992 C314.074,256.1252 310.6,254.8202 305.389,252.2112 M210.307,382.0362 L210.237,382.0362 C179.133,382.0242 148.625,373.6682 122.01,357.8742 L115.681,354.1172 L50.074,371.3272 L67.585,307.3612 L63.464,300.8032 C46.112,273.2042 36.948,241.3072 36.9609862,208.5532 C36.999,112.9792 114.761,35.2232 210.376,35.2232 C256.676,35.2392 300.199,53.2942 332.927,86.0592 C365.654,118.8232 383.667,162.3762 383.650012,208.6922 C383.611,304.2742 305.849,382.0362 210.307,382.0362 M357.835,61.1622 C318.46,21.7412 266.096,0.0222 210.305,0.0002 C95.352,0.0002 1.794,93.5512 1.748,208.5392 C1.733,245.2972 11.336,281.1752 29.587,312.8042 L0,420.8752 L110.558,391.8732 C141.02,408.4882 175.317,417.2462 210.222,417.2582 L210.307,417.2582 L210.308,417.2582 C325.249,417.2582 418.816,323.6972 418.862015,208.7062 C418.883,152.9812 397.21,100.5822 357.835,61.1622" />
+                    </svg>
+                    &nbsp;
+                    Whatsapp
+                </button>
+            </div>
+
+            <div class="flex items-center">
+                Dark Mode
+                
+                <button id="darkModeButton" class="flex" onclick="toggleDarkMode(event)">
+                    <span>&nbsp;</span>
+                </button>
+            </div>
         </div>
+
+        <button id="screenshotButton" class="flex items-center" onclick="takeScreenshot()">
+            <svg fill="currentColor" height="20" viewBox="0 0 24 24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/></svg>
+            Take Screenshot
+        </button>
     </div>
     <div id="lisimu" class="flex flex-col">
         <div class="message">
@@ -22,7 +57,39 @@
         </div>
 
         <div class="message sent">
+            What did I say?🤔
+        </div>
+
+        <div class="message">
+            Kwani we huoni?
+        </div>
+
+        <div class="message">
+            The last text you sent me?
+        </div>
+
+        <div class="message sent">
+            Oh that? Grow up, I was just kidding😅
+        </div>
+
+        <div class="message">
+            Utani gani hauna emoji?😂😂
+        </div>
+
+        <div class="message sent">
             Just get lost weirdo😏
+        </div>
+
+        <div class="message sent">
+            Oh btw, whatever happened to my copy of HP?
+        </div>
+
+        <div class="message">
+            Oh I sold that😂😂😂
+        </div>
+
+        <div class="message sent">
+            WTF, it wasn't mine😧
         </div>
 
         <!-- <input type="text" placeholder="Type message here" /> -->
