@@ -558,18 +558,15 @@ div#showcase-link-button {
 
 footer {
   padding: 30px;
+  line-height: 2rem;
 }
 
-div#footer-top img {
+div#footer-img img {
   width: 200px;
-  object-fit: contain;
-  justify-self: flex-start;
-  align-self: start;
 }
 
 div#footer-nav {
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 div#column > * {
@@ -607,9 +604,16 @@ div#footer-bottom-right a:active {
 
 div#footer-bottom {
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: baseline;
+  font-size: 14px;
+}
+
+div#footer-bottom a {
+  padding: 10px;
 }
 
 div#footer-bottom-left div {
   color: #9cacb4;
+  padding: 10px;
 }
