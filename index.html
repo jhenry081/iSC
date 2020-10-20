@@ -6,6 +6,7 @@
     <title>Conversation Generator</title>
 
     <link rel="stylesheet" href="styles.css" />
+    <script src="html2canvas.min.js"></script>
 </head>
 <body class="flex flex-co center-center">
     <div id="textContent">
@@ -19,7 +20,7 @@
         <div id="customize">
             <h2>Customize conversation</h2>
             <div id="themeButtons" class="flex">
-                <button id="fb" class="active flex items-center" onclick="changeThemeTo('fb')" class="active">
+                <button id="fb" class="active flex items-center" onclick="changeThemeTo('fb')">
                     <svg fill="currentColor" width="16" viewBox="0 0 245 244">
                         <path d="M245,122.745584 C245,54.9550197 190.154932,1.13686838e-13 122.5,1.13686838e-13 C54.8450684,1.13686838e-13 0,54.9550197 0,122.745584 C0,184.011452 44.7964795,234.791684 103.359375,244 L103.359375,158.226729 L72.2558594,158.226729 L72.2558594,122.745584 L103.359375,122.745584 L103.359375,95.7031972 C103.359375,64.9400853 121.647764,47.9474936 149.629443,47.9474936 C163.031948,47.9474936 177.050781,50.3448682 177.050781,50.3448682 L177.050781,80.5517892 L161.603818,80.5517892 C146.386304,80.5517892 141.640625,90.0135078 141.640625,99.7204779 L141.640625,122.745584 L175.615234,122.745584 L170.184082,158.226729 L141.640625,158.226729 L141.640625,244 C200.203521,234.791684 245,184.011452 245,122.745584" />
                     </svg>
@@ -50,7 +51,11 @@
             <svg fill="currentColor" height="20" viewBox="0 0 24 24"><path d="M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path d="M12 17l1.25-2.75L16 13l-2.75-1.25L12 9l-1.25 2.75L8 13l2.75 1.25z"/></svg>
             Take Screenshot
         </button>
+        <div id="download">
+            
+        </div>
     </div>
+
     <div id="lisimu" class="flex flex-col">
         <div class="message">
             Ahem...ignoring what you said there👋
