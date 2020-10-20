@@ -234,14 +234,16 @@ div#maps-pics > * {
 }
 
 div#maps-pics {
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
+  align-items: baseline;
   overflow-x: hidden;
 }
 
-div#map-pic img {
-  width: 550px;
-  height: 550px;
+div#map-pics img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* MAPBOX STUDIO & NAVIGATION & SEARCH & VISION */
