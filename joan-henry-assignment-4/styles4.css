@@ -206,6 +206,12 @@ div#companies {
 
 div#company img {
   width: 150px;
+  opacity: 0.3;
+  filter: grayscale(100);
+}
+
+#company img:hover {
+  opacity: 1;
 }
 
 /* MAPS */
@@ -235,15 +241,16 @@ div#maps-pics > * {
 
 div#maps-pics {
   justify-content: space-around;
-  align-items: baseline;
+  align-items: cen;
   overflow-x: hidden;
 }
 
 div#map-pics img {
-  width: 150px;
-  height: 150px;
+  width: 150px !important;
+  height: 150px !important;
   object-fit: contain;
   object-position: center;
+  max-width: 120px;
 }
 
 /* MAPBOX STUDIO & NAVIGATION & SEARCH & VISION */
@@ -408,7 +415,7 @@ div#straightaway-info h6 {
   background-color: #ffffff;
   color: #000000;
   width: fit-content;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 div#straightaway img {
